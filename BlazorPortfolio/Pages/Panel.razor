@@ -12,17 +12,6 @@ else
     <main >
     <section class="head" >
         <div class="container">
-            @*<div class="main">
-        <div class="main-photo">
-        <div class="personale">
-        <h1>@PersonalData.Name</h1>
-        <h3>@PersonalData.Title</h3>
-        </div>
-        </div>
-        <div class="correct"></div>
-        <div class="left-side"></div>
-        <div class="right-side"></div>
-        </div>*@
             <div class="main" >
                 <div class="main-photo">
                     <div class="personale">
@@ -44,13 +33,6 @@ else
                 <div class="about-me-content">
                     <h1><span>Over </span><span>Mij</span></h1>
                     <div>
-                        @* Ik ben Mohamad. Ik kom uit Syrië. Daar heb ik als ICT'er gewerkt.
-                    Ik probeer nu mijzelf te ontwikkelen in de richting van web developer.
-                    In mijn vrije tijd probeer ik iets te leren in deze richting.
-                    Ik ben momenteel bezig met HTML, CSS en JavaScript aan het leren.
-                    Ik heb aantal projecten gemaakt volgens wat ik geleerd heb,
-                    maar ik streef naar meer praktische ervaring op te doen in deze richting door stage,
-                    werkervaringsplek of baan te vinden.*@
                         @PersonalData.Description
                     </div>
                     <a class="btn slide fast" href="https://malio1983.github.io/CV/" target="_blank">CV bekijken</a>
@@ -70,8 +52,7 @@ else
                 <div class="skills-content">
                     @foreach (var skill in PersonalData.Skills)
                     {
-                       <SkillItem Data="@skill" Transitions="true"/>
-                       @*<SkillItemLinear Data="@skill"/>*@
+                       <SkillItemSVG Data="@skill"/>
                     }
                 </div>
             </div>
@@ -99,28 +80,6 @@ else
                                 <div></div>
                             }
                         }
-                    @*<div class="experience-item" data-text="Dec 2005 &#xa;Tot &#xa;Juli 2010">
-                        <div>
-                            <span class="item-title">Eigen zaak</span>
-                            Technologie, m.b.t. Software van computers en hardware vervangen.
-                        </div>
-                    </div>
-                    <div></div>
-                    <div></div>
-                    <div class="experience-item" data-text="Aug 2010 &#xa;Tot &#xa;Mrt 2015">
-                        <div><span class="item-title">IT medeweker - Experts Centrum</span>Onderhoud van computers en netwerken.
-                        </div>
-                    </div>
-                    <div class="experience-item" data-text="Nov 2017 &#xa;Tot &#xa;Feb 2018">
-                        <div><span class="item-title">Stage als boekhouder - Windesheim Hogeschool</span>Windesheim Control – meekijken bij verschillende administraties.
-                        </div>
-                    </div>
-                    <div></div>
-                    <div></div>
-                    <div class="experience-item" data-text="Okt 2018 &#xa;Tot &#xa;Feb 2019">
-                        <div><span class="item-title">Stage als ICT'er - Windesheim Hogeschool</span>Windesheim Lab21 – verschillende taken verrichten wat betreft IT.
-                        </div>
-                    </div>*@
                 </div>
             </div>
         </div>
@@ -133,13 +92,8 @@ else
                     <div class="my-projects-title"><h1>Mijn Projecten</h1></div>
                     <div class="my-projects-content">
                         @foreach (var project in PersonalData.Projects)
-                       // @for (int i = 1; i < 3; i++)
                         {
                             <div class="project-item">
-                                @*<a href="@PersonalData.Projects[i].Link" target="_blank">*@
-                                    @*<img class="project-img" src="@PersonalData.Projects[i].Image" alt="">*@
-                                    @*<h3>@PersonalData.Projects[i].Title</h3>*@
-                                @*</a>*@
                                 <a href="@project.Link" target="_blank">
                                     <img class="project-img" src="@project.Image" alt="">
                                     <h3>@project.Title</h3>
@@ -154,13 +108,13 @@ else
                         </div>
                         <div class="project-item">
                             <a href="https://malio1983.github.io/Efteling/" target="_blank">
-                                <img class="project-img" src="img/My Efteling.png" alt="">
+                                <img class="project-img" src="img/Efteling.png" alt="">
                                 <h3>Efteling</h3>
                             </a>
                         </div>
                         <div class="project-item">
                             <a href="https://malio1983.github.io/Barcelona/" target="_blank">
-                                <img class="project-img" src="img/FC Barcelona.png" alt="">
+                                <img class="project-img" src="img/FCBarcelona.png" alt="">
                                 <h3>FC Barcelona</h3>
                             </a>
                         </div>*@
@@ -198,7 +152,8 @@ else
 
 @code {
     //public string Uri { get; set; } = "PersonalData";
-    public string Uri { get; set; } = "https://malio1983.github.io/data_api/portfolio.json";
+    //public string Uri { get; set; } = "https://malio1983.github.io/data_api/portfolio.json";
+    public string Uri { get; set; } = "sample-data/PersonalData.json";
     //public string Id { get; set; } = "63735f8a278272f4ddd27ea7";
     public PersonalData PersonalData { get; set; } = new PersonalData();
 

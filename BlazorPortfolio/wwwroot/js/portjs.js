@@ -27,6 +27,24 @@ function onScroll(interval) {
         }
         if (scrollValue > (skills_section.scrollTop + about_me_section.clientHeight)) {
             skills_section.classList.add('fadeIn');
+            const skills = document.querySelectorAll('.bar');
+            skills.forEach(skill => {
+                let val = parseInt(skill.getAttribute("data-procent"));
+                    if (isNaN(val)) {
+                        val = 100;
+                    }
+                    else {
+                        var r = skill.getAttribute('r');
+                        var c = Math.PI * (r * 2);
+
+                        if (val < 0) { val = 0; }
+                        if (val > 100) { val = 100; }
+
+                        var pct = ((100 - val) / 100) * c;
+
+                        skill.style.strokeDashoffset = pct;
+                   }
+            });
         } else if (scrollValue < (skills_section.scrollTop + about_me_section.clientHeight))
         {
             skills_section.classList.remove('fadeIn');

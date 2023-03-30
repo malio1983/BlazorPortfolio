@@ -1,0 +1,30 @@
+﻿
+
+<div class="parent-chart">
+    <div id="cont" data-procent="@Data.Procent">
+        <svg id="svg" width="200" height="200" viewPort="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <circle r="@r" cx="@cx" cy="@cy" fill="transparent" stroke-dasharray="@dasharray" stroke-dashoffset="0">
+            </circle>
+            <circle class="bar" data-procent="@Data.Procent" r="@r" cx="@cx" cy="@cy" 
+                fill="transparent" stroke-dasharray="@dasharray"
+                    stroke-dashoffset="0" >
+            </circle>
+        </svg>
+    </div>
+    <div style="color:var(--third-color)">@Data.Text</div>
+</div>
+
+@code {
+    [Parameter]
+    public Skill Data { get; set; } = new Skill();
+
+    [Parameter]
+    public bool Transitions { get; set; }
+
+    private int r = 90;
+    private int cx = 100;
+    private int cy = 100;
+    private double dasharray = 565.48;
+
+
+}

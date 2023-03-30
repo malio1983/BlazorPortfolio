@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BlazorPortfolio.Models
+﻿namespace BlazorPortfolio.Models
 {
 
     public class PersonalData
@@ -40,7 +34,7 @@ namespace BlazorPortfolio.Models
     {
         
         public string Text { get; set; } = string.Empty;
-        public double Procent { get; set; } 
+        public int Procent { get; set; } 
     }
 
     public class Experience 
