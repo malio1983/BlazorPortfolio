@@ -1,0 +1,28 @@
+﻿<div class="parent-chart">
+    <TelerikCircularGauge Width="100px" Height="100px" Transitions="@Transitions">
+        <CircularGaugeCenterLabel>
+            <Template>
+                @(Data.Procent)%
+            </Template>
+        </CircularGaugeCenterLabel>
+        <CircularGaugeScales>
+            <CircularGaugeScale Min="0" Max="100">
+            </CircularGaugeScale>
+        </CircularGaugeScales>
+        <CircularGaugePointers>
+            <CircularGaugePointer Value="@Data.Procent" Color="var(--second-color)">
+            </CircularGaugePointer>
+        </CircularGaugePointers>
+    </TelerikCircularGauge>
+    @*<span class="percent"></span><canvas class="chart" data-value="60"></canvas>*@
+    <div style="color:var(--third-color)">@Data.Text</div>
+</div>
+
+@code {
+    [Parameter]
+    public Skill Data { get; set; } = new Skill();
+
+    [Parameter]
+    public bool Transitions { get; set; }
+
+}
