@@ -1,0 +1,55 @@
+{
+  "Name": "Mohamad Alali Alomar",
+  "Email": "malio1983nl@gmail.com",
+  "Phone": "0657257324",
+  "Title": ".Net Full Stack Developer",
+  "Description": "Ik ben Mohamad. Ik heb ICT gestudeerd en als ICT'er gewerkt. In 2019 heb ik een C#/.Net opleiding gedaan. Ik probeer nu mijzelf te ontwikkelen in de richting van web developer. In mijn vrije tijd probeer ik iets nieuws te leren en de nieuwe techniek (bv Blazor, MAUI, enzo..) toe te passen. Ik heb aantal projecten gemaakt volgens wat ik geleerd heb, maar ik streef naar meer praktische ervaring op te doen in deze richting door een betaalde baan te vinden.",
+  "Experiences": [
+    {
+        "From": "Dec 2000",
+        "To": "feb 2004",
+        "Company": "test",
+        "Title": "test from mongo"
+    },
+    {
+        "From": "Dec 2000",
+        "To": "feb 2004",
+        "Company": "test",
+        "Title": "test from mongo"
+    }
+  ],
+    "Projects": [
+        {
+            "Title": "Pickwick",
+            "Link": "https://malio1983.github.io/Pickwick/",
+            "Image": "img/Pick.png"
+        },
+        {
+            "Title": "Efteling",
+            "Link": "https://malio1983.github.io/Efteling/",
+            "Image": "img/Efteling.png"
+        },
+        {
+            "Title": "FC Barcelona",
+            "Link": "https://malio1983.github.io/Barcelona/",
+            "Image": "img/FCBarcelona.png"
+        }
+    ],
+  "Skills": [
+    {
+      "Text": "HTML",
+      "Procent": "60"
+    },
+    {
+      "Text": "CSS",
+      "Procent": "70"
+    }
+  ],
+  "SocialMedias": [
+    {
+      "Icon": "fab fa-linkedin fa-2x",
+      "Link": "https://nl.linkedin.com/in/mohamad-alali-alomar",
+      "Name": "LinkedIn"
+    }
+  ]  
+}
