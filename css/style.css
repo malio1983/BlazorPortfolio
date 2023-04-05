@@ -685,9 +685,10 @@ canvas {
     /*border: 2px solid var(--first-color);*/
     transform-style: preserve-3d;
     transition: width .5s .5s linear, border 0s .5s linear ;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     display: flex;
     align-items: center;
+    justify-content:center
 }
 
     .experience-item::before {
@@ -775,6 +776,9 @@ canvas {
     padding: 0 1rem;
     height: 100px;
     color: var(--second-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .expand div {

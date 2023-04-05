@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "BlazorPortfolio.dll": "sha256-JFdUj8mSdpfZBn0Z3uTmIjSOKAMqVWHR3IrVS5jDhoc=",
+      "BlazorPortfolio.dll": "sha256-UebFNPSKVflw\/067qtLt+cnYhov+zfk4+oZVHGWHyec=",
       "Microsoft.AspNetCore.Components.dll": "sha256-hApkiGgQWNpy0T6O5n\/n\/9++8ErkL16MwrqsAv7im4Q=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-NbNId\/mbBhMlMOBCCM9ngwvsRmrTvAznmcq\/o+GFBLg=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-UmBNW046bLlFYUgZluaE8q251xpHaH5g6ibFCEH7nQI=",
@@ -25,16 +25,16 @@
       "System.Collections.Concurrent.dll": "sha256-LSftwzNUTQzdq8DVIUvlpSS5qFVco9kEFftlqf9N\/V0=",
       "System.Collections.dll": "sha256-Nk0WEVd32G5yc5Q+e7dHlTKBKgQBSPm2fV\/85fl6+8Q=",
       "System.ComponentModel.dll": "sha256-sFATMGjRWI3FpMI5kV6a84U7Wfb+880OK+UKAgg77O0=",
-      "System.Linq.dll": "sha256-XNI\/JyCwldI2BVD9kiTiIWOwvPieL4gj1bYXrfFEHsE=",
+      "System.Linq.dll": "sha256-o5Yf56ODxffJ\/4AmnP4ccEk8ILEzRisOTz2d3MMWlQ4=",
       "System.Memory.dll": "sha256-hBqjbQbNHa9zkyxuPMnlxf6AonqI7bA67d5zsI0ZBRs=",
       "System.Net.Http.dll": "sha256-7GoVWHTgZDiigAhD6Rl38w\/\/f4vs1XSKE2XyHHk2Zg0=",
       "System.Net.Http.Json.dll": "sha256-O+mxX9msN2OSZh1kS1f6R2dydIihOnOCCB7cbVuolt8=",
       "System.Net.Primitives.dll": "sha256-UBSNAqW0ebjXe2DpXcg8095Rc0T0oW91CkSyF+ojMGc=",
-      "System.Private.CoreLib.dll": "sha256-NjNdHzFplZO+\/1mLab7NC\/B\/f\/Itc6xf73bhFrVlZ+U=",
+      "System.Private.CoreLib.dll": "sha256-5XkzdYnr8O1TVfI59dEcdUTOJrsSoK7OgjK6F0zbcXE=",
       "System.Private.Runtime.InteropServices.JavaScript.dll": "sha256-mKnldpmecvzkpu7ioBoV1z9Smcpsmm7ISlo+3aLAh9o=",
       "System.Private.Uri.dll": "sha256-SAC2Z6MLunVKooj1zLzi5TcsiJmzlbtBuZOxSDWS+eU=",
       "System.Runtime.CompilerServices.Unsafe.dll": "sha256-HEBnjeXspWqWrEpmc+NhsWUJD267Z5uMYnOkB43Jj6U=",
-      "System.Runtime.dll": "sha256-RVlEe5\/r5fAEDUxmc2nJoZV9fe58I6+0yOt56zjFY4U=",
+      "System.Runtime.dll": "sha256-YiD1voQ7w9SJyPz94lbvLKZMoibkEmhmQEZKR2r+59w=",
       "System.Text.Encodings.Web.dll": "sha256-nk\/Upz9IN8ctldHma6dwOKdbROn1d5dmExOKl0BNDXU=",
       "System.Text.Json.dll": "sha256-trBBn7Q6awtAtOqEsqgFUrwP+B2WCw04Szwau2jbSBg="
     },
