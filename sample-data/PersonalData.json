@@ -2,47 +2,89 @@
   "Name": "Mohamad Alali Alomar",
   "Email": "malio1983nl@gmail.com",
   "Phone": "0657257324",
-  "Title": ".Net Full Stack Developer",
+  "Title": "C# / .Net Developer",
   "Description": "Ik ben Mohamad. Ik heb ICT gestudeerd en als ICT'er gewerkt. In 2019 heb ik een C#/.Net opleiding gedaan. Ik probeer nu mijzelf te ontwikkelen in de richting van web developer. In mijn vrije tijd probeer ik iets nieuws te leren en de nieuwe techniek (bv Blazor, MAUI, enzo..) toe te passen. Ik heb aantal projecten gemaakt volgens wat ik geleerd heb, maar ik streef naar meer praktische ervaring op te doen in deze richting door een betaalde baan te vinden.",
   "Experiences": [
     {
-        "From": "Dec 2000",
-        "To": "feb 2004",
-        "Company": "test",
-        "Title": "test from mongo"
+      "From": "2021-09-01T00:00:00",
+      "To": "2022-10-01T00:00:00",
+      "Company": "DevRepublic",
+      "Title": ".Net Developer"
     },
     {
-        "From": "Dec 2000",
-        "To": "feb 2004",
-        "Company": "test",
-        "Title": "test from mongo"
+      "From": "2021-02-01T00:00:00",
+      "To": "2021-09-01T00:00:00",
+      "Company": "VluchtelingenWerk Nederland - vrijwilligerswerk",
+      "Title": "Tolk- en ondersteunende werkzaamheden"
+    },
+    {
+      "From": "2020-04-01T00:00:00",
+      "To": "2020-10-01T00:00:00",
+      "Company": "BE Precision Technology",
+      "Title": "C# Developer"
+    },
+    {
+      "From": "2018-10-01T00:00:00",
+      "To": "2019-02-01T00:00:00",
+      "Company": "Windesheim hogeschool",
+      "Title": "Stage als ICT‘er"
+    },
+    {
+      "From": "2017-11-01T00:00:00",
+      "To": "2018-02-01T00:00:00",
+      "Company": "Windesheim hogeschool",
+      "Title": "Stage als boekhouder"
+    },
+    {
+      "From": "2010-09-01T00:00:00",
+      "To": "2015-08-01T00:00:00",
+      "Company": "Experts Centrum",
+      "Title": "IT Supportmedeweker"
+    },
+    {
+      "From": "2005-12-01T00:00:00",
+      "To": "2010-08-01T00:00:00",
+      "Company": "EIGEN ZAAK",
+      "Title": "IT Supportmedeweker"
     }
   ],
-    "Projects": [
-        {
-            "Title": "Pickwick",
-            "Link": "https://malio1983.github.io/Pickwick/",
-            "Image": "img/Pick.png"
-        },
-        {
-            "Title": "Efteling",
-            "Link": "https://malio1983.github.io/Efteling/",
-            "Image": "img/Efteling.png"
-        },
-        {
-            "Title": "FC Barcelona",
-            "Link": "https://malio1983.github.io/Barcelona/",
-            "Image": "img/FCBarcelona.png"
-        }
-    ],
-  "Skills": [
+  "Projects": [
     {
-      "Text": "HTML",
-      "Procent": "60"
+      "Title": "Pickwick",
+      "Link": "https://malio1983.github.io/Pickwick/",
+      "Image": "img/Pick.png"
     },
     {
-      "Text": "CSS",
+      "Title": "Efteling",
+      "Link": "https://malio1983.github.io/Efteling/",
+      "Image": "img/Efteling.png"
+    },
+    {
+      "Title": "FC Barcelona",
+      "Link": "https://malio1983.github.io/Barcelona/",
+      "Image": "img/FCBarcelona.png"
+    }
+  ],
+  "Skills": [
+    {
+      "Text": "C#/.Net",
       "Procent": "70"
+    },
+    {
+      "Text": "HTML/CSS",
+      "Procent": "70"
+    },
+    {
+      "Text": "JS/React",
+      "Procent": "50"
+    },
+    {
+      "Text": "SQL",
+      "Procent": "50"
+    },
+    {
+      "Text": "Azure/Git",
+      "Procent": "60"
     }
   ],
   "SocialMedias": [
@@ -51,5 +93,5 @@
       "Link": "https://nl.linkedin.com/in/mohamad-alali-alomar",
       "Name": "LinkedIn"
     }
-  ]  
+  ]
 }
