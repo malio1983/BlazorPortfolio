@@ -1,4 +1,5 @@
 ﻿@page "/"
+@using System.Globalization;
 @inject HttpClient http
 @inject IJSRuntime JS
 @implements IDisposable
@@ -68,7 +69,7 @@ else
                 <div class="experience-content">
                         @foreach (var experience in PersonalData.Experiences)
                         {
-                            <div class="experience-item" data-text="@($"{experience.From} \n Tot \n {experience.To}")">
+                            <div class="experience-item" data-text="@($"{experience.From.ToString("MMM yyyy",new CultureInfo("nl-NL"))} \n - \n {experience.To.ToString("MMM yyyy",new CultureInfo("nl-NL"))}")">
                                 <div>
                                     <span class="item-title">@experience.Company</span>
                                     @experience.Title
