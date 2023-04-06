@@ -213,7 +213,7 @@
       "url": "css\/open-iconic\/README.md"
     },
     {
-      "hash": "sha256-gME8qiUuqXsDXR+ygE4IvUnGuy+FjxGIC4yhPMINt\/M=",
+      "hash": "sha256-x0YsEnjI0ZB71gPuEgM0MTHYAmSrZUstUptqWvdtnpw=",
       "url": "css\/style.css"
     },
     {
@@ -273,5 +273,5 @@
       "url": "sample-data\/PersonalData.json"
     }
   ],
-  "version": "GJr8rXYr"
+  "version": "DkiphZ4N"
 };
