@@ -161,7 +161,7 @@
       "url": "BlazorPortfolio.styles.css"
     },
     {
-      "hash": "sha256-AcT8HvyPLj5hkcdeRZ\/\/HVC2aMo\/Pdky6+3AI9ieHWQ=",
+      "hash": "sha256-sARyZDX+Shb1Bip1g0Rvi034UMGoEKg8KebTDPRY9yY=",
       "url": "404.html"
     },
     {
@@ -253,7 +253,7 @@
       "url": "img\/Pick.png"
     },
     {
-      "hash": "sha256-OIH6dW91GpnVThPIxeDgV3S1xRQuexliQsN+qQTYLok=",
+      "hash": "sha256-duJCN4TpLjwQIxx+Yi1kPls3RV\/m8j\/SyAkWgrp7w18=",
       "url": "index.html"
     },
     {
@@ -273,5 +273,5 @@
       "url": "sample-data\/PersonalData.json"
     }
   ],
-  "version": "DkiphZ4N"
+  "version": "uaze1mUA"
 };
